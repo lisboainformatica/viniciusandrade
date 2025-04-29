@@ -41,7 +41,7 @@ function upddate (direction) {
 
     setInterval(() => {
         upddate(1)
-    }, 5000)
+    }, 8000)
 
 prevButton.addEventListener('click', () => {
     upddate(-1);
